@@ -37,9 +37,10 @@
     function drawChart() {
 
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Electricity production from oil, gas and coal sources');
-      data.addColumn('number', 'Electricity production from natural gas sources');
-      data.addColumn('number', 'Electricity production from oil sources');
+      data.addColumn('number', 'Source of Electricity');
+      data.addColumn('number', 'Oil, gas and coal sources');
+      data.addColumn('number', 'Natural gas sources');
+      data.addColumn('number', 'Oil sources');
 
       data.addRows([
         
