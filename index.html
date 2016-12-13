@@ -42,6 +42,45 @@
 		    <script async src="//jsfiddle.net/k6j7g3zp/1/embed/result/dark/"></script>
 	    
 	  </section>
+	    
+	    <title>W3.CSS</title>
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>    
+	    <h2 class="w3-center">Trinidad and Tobago's cean's are populated by oil rigs</h2>
+	    <div class="w3-content w3-display-container">
+	    <img class="mySlides" src="Trinidad-and-Tobago-1.jpg">
+<img class="mySlides" src="oil_field_offshore.jpg">
+<img class="mySlides" src="tt-ocean-rig735x489.jpg">
+<img class="mySlides" src="crudeoil.jpg">
+	    
+	    <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+<a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)">&#10095;</a>
+		    </div>
+	    <script>
+	    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i <x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+	</script>
+
+</body>
+	   
+	 
     
       <p> The vast majority of Trinidad and Tobago's electricity is produced from oil, and a miniscule amount from natural gas. And absolutely none being made from alternative, sustainable sources. <p>
       
